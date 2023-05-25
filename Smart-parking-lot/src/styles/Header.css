@@ -1,0 +1,33 @@
+.header {
+  background-color: #95bdff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: none;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  user-select: none;
+  margin: 0 20px;
+}
+
+.empty {
+  height: 100px;
+  width: 100px;
+  margin: 0 20px;
+}
+
+.header-title {
+  color: white;
+  margin: 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
